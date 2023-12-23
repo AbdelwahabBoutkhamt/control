@@ -1,0 +1,18 @@
+version: '3'
+services:
+  microservice1:
+    build: C:\Users\rchaf\OneDrive\Desktop\control\microservices\Client
+    ports:
+      - "8081:8081"
+  microservice2:
+    build: C:\Users\rchaf\OneDrive\Desktop\control\microservices\Eureka_server
+    ports:
+      - "8082:8082"
+  microservice3:
+    build: C:\Users\rchaf\OneDrive\Desktop\control\microservices\Eureka_server
+    ports:
+      - "8083:8083"
+  microservice4:
+    build: C:\Users\rchaf\OneDrive\Desktop\control\microservices\Eureka_server
+    ports:
+      - "8084:8084"
